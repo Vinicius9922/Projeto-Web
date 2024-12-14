@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body {
+    width: 100%;
+    font-family: Poppins, normal;
+    background-color: #136af8;
+    background: linear-gradient(to bottom, #136af8 93%, #081b30 7%);
+}
+
+header {
+    background-color: #136af8;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 200px;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+    font-weight: 500;
+}
+
+#lupa {
+    margin-left: 20px;
+}
+
+.logo {
+    margin-left: 60px;
+}
+
+section {
+    background-color: #136af8;
+    display: flex;
+}
+
+.textCarroussel {
+    text-align: left;
+    margin-left: 60px;
+    padding-left: 15px;
+}
+
+.textCarroussel p,
+strong {
+    color: white;
+}
+
+.color {
+    font-weight: bolder;
+}
+
+.textCarroussel h1 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 74px;
+    color: #081b30;
+}
+
+.textCarroussel p {
+    font-size: 16px;
+}
+
+button {
+    min-width: 180px;
+    color: white;
+    background-color: #081b30;
+    padding: 10px 50px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #032b58;
+}
+
+button+button {
+    margin-left: 15px;
+}
+
+#img-carroussel {
+    max-width: 110%;
+    height: auto;
+    display: block;
+}
+
+/*////////////////////////////////////////////////////*/
+
+
+/* Estilo global */
+
+
+/* Cabeçalho "Our Products" */
+.parte.branca {
+    background-color: white;
+    text-align: center;
+    padding: 40px 280px;
+}
+
+.parte.branca h1 {
+    font-size: 50px;
+    color: black;
+    text-align: left;
+    font-weight: 800;
+    margin: 5px;
+}
+
+.parte.branca h1 span {
+    color: #0072ff;
+
+}
+
+.parte.branca p {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 400;
+    margin: 5px;
+}
+
+/* Grade de produtos */
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    column-gap: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #001f3f;
+}
+
+
+.container3 div {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container3 img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.container3 div .valor {
+    margin: 5px 0;
+    font-size: 26px;
+    color: #0072ff
+}
+
+.container3 div p {
+    font-size: 26px;
+    color: black;
+    margin: 3px;
+}
+
+/* Sessão "About Us" */
+.branca2 {
+    background-color: white;
+    text-align: left;
+    padding: 40px 280px;
+}
+
+.branca2 h1 {
+    font-size: 50px;
+    color: black;
+    text-align: left;
+    font-weight: 800;
+    margin: 5px;
+}
+
+.branca2 h1 span {
+    color: #0072ff;
+}
+
+.branca2 p {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 400;
+    margin: 5px;
+}
+
+/* Sessão "Best sports item shop our" */
+.shield {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0072ff;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 20px;
+}
+
+.texto-shield {
+    text-align: left;
+}
+
+.shield h1 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.shield .p2 {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.btn_main .botao {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 17px;
+    transition: 0.5s ease, color 0.4s ease 0.1s;
+}
+
+.botao:hover {
+    background-color: #fbfbfb;
+    color: black; 
+}
+
+.child {
+    margin: 0px;
+}
+
+.child img {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    border: 15px solid #fff;
+}
+
+
+/*/////////////////////////////////////////////////*/
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 100px;
+    flex-direction: column;
+    /* background: linear-gradient(to bottom, #136af8 70%, #081b30 30%); */
+}
+
+.formulario {
+    flex: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px;
+    justify-content: center;
+    gap: 40px;
+    background-image: url('img/contact-banner.png');
+}
+
+.grupo-form {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 460px;
+    height: 360px;
+}
+
+.form {
+    border: none;
+    width: 100px;
+    margin: 0px;
+}
+
+.box-left {
+    background-color: #081b30;
+    color: white;
+    text-align: center;
+    font-family: apple;
+    font-size: 180px;
+    padding: 10% 10%;
+    padding: 120px;
+}
+
+.box-right {
+    height: auto;
+    background-color: #f2f2f2;
+    background-image: url('img/boll_bg.png');
+    padding: 40px 30px;
+}
+
+.box-left,
+.box-right {
+    width: 50%;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+input,
+textarea {
+    font-family: Poppins, normal;
+    color: #a4a0a0;
+    width: 100%;
+}
+
+.box-down {
+    display: flex;
+    align-items: row;
+    background-color: #081b30;
+    color: white;
+    width: 1150px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.9);
+}
+
+.text-news {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding-left: 35px;
+    font-size: 12px;
+    padding: 35px;
+}
+
+.Newsletter {
+    margin: 1px;
+    font-size: 20px;
+}
+
+.text-newsletter {
+    font-size: 15px;
+}
+
+.email-news {
+    display: flex;
+    align-items: center;
+    height: 172px;
+}
+
+.Subscribe {
+    display: flex;
+    align-items: center;
+    height: 132px;
+}
+
+.news-email {
+    padding: 9px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 25px 0 0 25px;
+    width: 500px;
+    height: 41px;
+    box-sizing: border-box;
+}
+
+.subs-button {
+    font-size: 18px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    height: 42px;
+
+}
+
+.subs-button:hover {
+    background-color: #0056b3;
+}
+.footer{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    margin: 5px;
+    
+}
+.titulo_texto{
+    color:white;
+    text-decoration-line: underline;
+    text-decoration-color: #0056b3;
+    text-underline-offset: 20px;
+    font-weight:400;
+}
+
+.info_icon{
+    margin-top: 21px;
+    background-color:white;
+    border-radius: 10px;
+    border-
+}
+
