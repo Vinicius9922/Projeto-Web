@@ -4,7 +4,7 @@ body {
     width: 100%;
     font-family: Poppins, normal;
     background-color: #136af8;
-    background: linear-gradient(to bottom, #136af8 90%, #081b30 90%, #081b30 98%, #136af8 98%);
+    background: linear-gradient(to bottom, #136af8 90%, #081b30 90%, #081b30 98%, #136af8 98% );
 }
 
 /* Ajustes da Navbar superior */
@@ -40,7 +40,7 @@ ul {
 }
 
 /* Ajuste na imagem das luvas, botões e textos  */
-section {
+section {    
     display: flex;
 }
 
@@ -233,7 +233,7 @@ button+button {
 
 .botao:hover {
     background-color: #fbfbfb;
-    color: black;
+    color: black; 
 }
 
 .child {
@@ -252,11 +252,11 @@ button+button {
     background-color: white;
     text-align: center;
     padding: 40px 280px;
-}
+ }
 
 .testimonial {
     text-align: center;
-    padding: 50px;
+    padding: 50px;    
     color: white;
     width: 100%;
     border-radius: 10px;
@@ -264,9 +264,9 @@ button+button {
 }
 
 .testominal h2 {
-    font-size: 2.5em;
+    font-size:2.5em;
     margin-bottom: 20px;
-
+    
 }
 
 .testimonial span {
@@ -279,7 +279,7 @@ button+button {
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-    background-color: #136af8;
+    background-color: #136af8; 
     padding: 30px;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
     color: white;
@@ -291,19 +291,19 @@ button+button {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 20px;   
 }
 
-.john_text .name {
+.john_text .name {    
     font-size: 1.5em;
-    color: black;
+    color:black;
     font-weight: 500;
 }
 
 .john_text .role {
     font-style: italic;
     font-size: 1.0em;
-    display: block;
+    display:block;
 }
 
 .texto-generico {
@@ -321,27 +321,27 @@ button+button {
 }
 
 .Contato {
-    text-align: center;
-    padding: 30px;
+    text-align: center;    
+    padding: 30px;    
     width: 100%;
     border-radius: 10px;
 }
 
 .Contato .contact {
     font-size: 2.5em;
-    margin-bottom: 20px;
+    margin-bottom: 20px;   
     font-weight: 700;
 }
 
 .Contato .us {
     font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #0072ff;
+    margin-bottom: 20px;  
+    color:#0072ff; 
     font-weight: 700;
 }
 
 .Contato .contact-text {
-    font-size: 1.0em;
+    font-size: 1.0em;    
 }
 
 /* Ajuste na sessão de formulario (fundo azul claro) */
@@ -350,7 +350,7 @@ button+button {
     align-items: center;
     justify-content: space-between;
     margin: 30px 100px;
-    flex-direction: column;
+    flex-direction: column;   
 }
 
 .formulario {
@@ -420,8 +420,7 @@ textarea {
     color: #a4a0a0;
     width: 100%;
 }
-
-/* Ajuste na sessão "NEWSLETTER" */
+Ajuste na sessão "NEWSLETTER"
 .box-down {
     display: flex;
     align-items: row;
@@ -486,40 +485,40 @@ textarea {
     background-color: #0056b3;
 }
 
-/* Ajustes na sessão "ADDRESS" (fundo azul) */
-.footer {
+
+.footer{
     font-size: 18px;
     margin-top: 10px;
     text-align: center;
     font-weight: 400;
-    margin: 5px;
+    margin: 5px;    
 }
 
-.titulo_texto {
-    color: white;
+.titulo_texto{
+    color:white;
     text-decoration-line: underline;
     text-decoration-color: #0056b3;
     text-underline-offset: 20px;
-    font-weight: 400;
+    font-weight:400;
 }
 
-.endereco>div {
+.endereco > div {
     display: flex;
-    gap: 100px;
-    align-items: center;
+    gap: 100px; 
+    align-items: center; 
 }
 
 .icones {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    color: white;
+    align-items: center; 
+    gap: 10px; 
+    color:white;    
 }
 
 .info_icon img {
-    width: auto;
+    width: auto; 
     height: auto;
-    background-color: white;
+    background-color:white;
     border-radius: 10px;
     padding: 20px;
     display: block;
@@ -527,44 +526,42 @@ textarea {
 
 .site_info {
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 
 .site_info span {
     line-height: 1.2;
-    font-size: 16px;
-
+    font-size: 16px;  
+    
 }
-
 .img-icon {
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border-radius: 10px;
-    margin: 30px;
+    width: 50px; 
+    height: 50px; 
+    background-color: white; 
+    border-radius: 10px; 
+    margin:30px;
 }
 
-.menu_text ul {
+.menu_text ul{      
     font-size: 14px;
     text-align: center;
-    padding: 0px 00px 0px 350px;
-    align-items: center;
+    padding:0px 00px 0px 350px;
+    align-items:center;
     margin-bottom: 15px;
+    
 }
 
-.menu_text li:hover {
-    color: #0072ff;
+.menu_text li:hover{
+    color:#0072ff;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration:none;
     transition: 0.5s ease, color 0.4s ease 0.1s;
 }
-
-/* Ajuste na sessão "trademark" (fundo azul claro) */
-.trademark {
-    color: white;
-    align-items: center;
-    margin-top: 15px;
+.trademark{
+   color:white;
+   align-items:center;
+   margin-top: 15px;
 }

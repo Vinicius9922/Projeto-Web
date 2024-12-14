@@ -4,10 +4,14 @@ body {
     width: 100%;
     font-family: Poppins, normal;
     background-color: #136af8;
-    background: linear-gradient(to bottom, #136af8 90%, #081b30 90%, #081b30 98%, #136af8 98%);
+    background: linear-gradient(to bottom, #136af8 90%, #081b30 90%, #081b30 98%, #136af8 98% );
 }
 
-/* Ajustes da Navbar superior */
+header {
+    background-color: #136af8;
+    padding: 0px;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -39,8 +43,8 @@ ul {
     margin-left: 60px;
 }
 
-/* Ajuste na imagem das luvas, botões e textos  */
 section {
+    background-color: #136af8;
     display: flex;
 }
 
@@ -97,7 +101,7 @@ button+button {
     display: block;
 }
 
-/* Ajuste na descrição dos produtos (fundo branco) */
+
 .parte.branca {
     background-color: white;
     text-align: center;
@@ -114,6 +118,7 @@ button+button {
 
 .parte.branca h1 span {
     color: #0072ff;
+
 }
 
 .parte.branca p {
@@ -124,7 +129,7 @@ button+button {
     margin: 5px;
 }
 
-/* Ajuste na grade de produtos e as respectivas imagens (fundo azul) */
+/* Grade de produtos */
 .container3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -136,6 +141,7 @@ button+button {
     padding-bottom: 40px;
     background-color: #001f3f;
 }
+
 
 .container3 div {
     text-align: center;
@@ -162,7 +168,7 @@ button+button {
     margin: 3px;
 }
 
-/* Ajuste na sessão "About Us" (fundo branco) */
+/* Sessão "About Us" */
 .branca2 {
     background-color: white;
     text-align: left;
@@ -189,7 +195,7 @@ button+button {
     margin: 5px;
 }
 
-/* Ajustes na sessão "Best sports item shop our", botão, imagem e texto (fundo azul claro)*/
+/* Sessão "Best sports item shop our" */
 .shield {
     display: flex;
     justify-content: space-between;
@@ -233,7 +239,7 @@ button+button {
 
 .botao:hover {
     background-color: #fbfbfb;
-    color: black;
+    color: black; 
 }
 
 .child {
@@ -247,26 +253,30 @@ button+button {
     border: 15px solid #fff;
 }
 
-/* Ajustes na sessão "Testmonial", imagem e texto do "JOHN DUE" e sessão "CONTACT US" (fundo branco) */
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+
+
 .testimonial-contato {
     background-color: white;
-    text-align: center;
+    text-align: left;
     padding: 40px 280px;
-}
+ }
+
 
 .testimonial {
     text-align: center;
-    padding: 50px;
+    padding: 50px;    
     color: white;
     width: 100%;
     border-radius: 10px;
     margin-bottom: 30px;
 }
 
-.testominal h2 {
-    font-size: 2.5em;
+.testimonial h2 {
+    font-size:37px;
     margin-bottom: 20px;
-
+    
 }
 
 .testimonial span {
@@ -279,7 +289,7 @@ button+button {
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-    background-color: #136af8;
+    background-color: #136af8; /* Blue background */
     padding: 30px;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
     color: white;
@@ -288,26 +298,24 @@ button+button {
 }
 
 .john_image img {
-    width: 180px;
-    height: 180px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 20px;   
 }
 
-.john_text .name {
+.john_text {
+    font-weight: bold;
     font-size: 1.5em;
-    color: black;
-    font-weight: 500;
 }
 
-.john_text .role {
+.john_text span {
     font-style: italic;
-    font-size: 1.0em;
-    display: block;
+    font-size: 1.2em;
 }
 
 .texto-generico {
-    font-size: 0.9em;
+    font-size: 1.2em;
     color: #fff;
     text-align: center;
     font-style: italic;
@@ -315,42 +323,46 @@ button+button {
 }
 
 .icon_image img {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     margin-top: 20px;
 }
 
 .Contato {
     text-align: center;
-    padding: 30px;
+    margin-top: 50px;
+    padding: 30px;    
     width: 100%;
     border-radius: 10px;
 }
 
-.Contato .contact {
+.Contato h2 {
     font-size: 2.5em;
-    margin-bottom: 20px;
-    font-weight: 700;
+    margin-bottom: 20px;   
 }
 
-.Contato .us {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #0072ff;
-    font-weight: 700;
+.Contato span {
+    font-size: 1.2em;
+    
 }
 
-.Contato .contact-text {
-    font-size: 1.0em;
-}
 
-/* Ajuste na sessão de formulario (fundo azul claro) */
+
+
+
+
+
+
+
+
+
+
 .container2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 30px 100px;
-    flex-direction: column;
+    flex-direction: column;   
 }
 
 .formulario {
@@ -421,7 +433,6 @@ textarea {
     width: 100%;
 }
 
-/* Ajuste na sessão "NEWSLETTER" */
 .box-down {
     display: flex;
     align-items: row;
@@ -486,40 +497,40 @@ textarea {
     background-color: #0056b3;
 }
 
-/* Ajustes na sessão "ADDRESS" (fundo azul) */
-.footer {
+
+.footer{
     font-size: 18px;
     margin-top: 10px;
     text-align: center;
     font-weight: 400;
-    margin: 5px;
+    margin: 5px;    
 }
 
-.titulo_texto {
-    color: white;
+.titulo_texto{
+    color:white;
     text-decoration-line: underline;
     text-decoration-color: #0056b3;
     text-underline-offset: 20px;
-    font-weight: 400;
+    font-weight:400;
 }
 
-.endereco>div {
+.endereco > div {
     display: flex;
-    gap: 100px;
-    align-items: center;
+    gap: 100px; 
+    align-items: center; 
 }
 
 .icones {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    color: white;
+    align-items: center; 
+    gap: 10px; 
+    color:white;    
 }
 
 .info_icon img {
-    width: auto;
+    width: auto; 
     height: auto;
-    background-color: white;
+    background-color:white;
     border-radius: 10px;
     padding: 20px;
     display: block;
@@ -527,44 +538,40 @@ textarea {
 
 .site_info {
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 
 .site_info span {
     line-height: 1.2;
-    font-size: 16px;
-
+    font-size: 16px;  
+    
 }
-
 .img-icon {
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border-radius: 10px;
-    margin: 30px;
+    width: 50px; 
+    height: 50px; 
+    background-color: white; 
+    border-radius: 10px; 
+    margin:30px;
 }
 
-.menu_text ul {
+.menu_text ul{      
     font-size: 14px;
     text-align: center;
-    padding: 0px 00px 0px 350px;
-    align-items: center;
+    padding:0px 00px 0px 350px;
+    align-items:center;
     margin-bottom: 15px;
 }
 
-.menu_text li:hover {
-    color: #0072ff;
+.menu_text li:hover{
+    color:#0072ff;
     cursor: pointer;
-    text-decoration: none;
-    transition: 0.5s ease, color 0.4s ease 0.1s;
+    text-decoration:none;
 }
-
-/* Ajuste na sessão "trademark" (fundo azul claro) */
-.trademark {
-    color: white;
-    align-items: center;
-    margin-top: 15px;
+.trademark{
+   color:white;
+   align-items:center;
+   margin-top: 15px;
 }
